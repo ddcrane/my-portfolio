@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+      color: rgb(33, 152, 199);
+      font-family: Helvetica, Arial, sans-serif;
+  }
+
+    .hero {
+        padding: 20px 35px;
+        background-image: url("../images/hero-bg.jpg");
+   }
+
+   .subtitle {
+    display: flex;
+    align-items: flex-end;
+
+   }
+
