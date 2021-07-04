@@ -116,7 +116,10 @@ color: var(--primary-color);
   max-width: fit-content;
   }
   
- 
+  .work-title ul li a {
+    padding: 10px 50px;
+  }
+
 .contact-title h2 {
 padding: 10px 15px;
 display: flex;
@@ -137,8 +140,9 @@ max-width: fit-content;
   }
 
 .contact-title ul li a {
-
-  padding: 10px 15px;
+  padding: 10px 50px;
+  border-bottom: 3px solid;
+  border-color: cornflowerblue;
 }
   
 .work-title ul {
