@@ -1,106 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>David Crane's Portfolio</title>
-        <link rel="stylesheet" href="./assets/css/style.css" />
-    </head>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>David Crane // Full Stack Web Developer</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
 <body>
+  <!-- main logo / nav -->
+  <header>
+    <h1>David Crane</h1>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact Me</a>
+      <!-- Link this to your resume! -->
+      <a href="https://drive.google.com/file/d/11HbwDAtLyMZOjW1oph7t0rF0KvdcJnEp/view?usp=sharing">Resume</a>
+    </nav>
+  </header>
 
-<!----------------navigation------------>
-    <header>
-        <h1>
-            <a href="/">David Crane's Portfolio</a>
-        </h1>
-        
-        <nav>
-            <ul>
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#contact-me">Contact Me</a></li>
-                <li><a href="">Resume</a></li>
-            </ul>
-        </nav>
-    </header>
-
-<!-------------end navigation-------------->
-
-
-<!--------------hero------------------>
-    <section class="hero">
-        
-        <h4 class=>Coding Extraordinaire</h4>
-            <!--cool background image here in CSS-->
-    </section>
-<!----------end hero----------------->
-
-
-
-
-    
-
-<!-------about me-------------->
-<section id="about-me" class="about-title">
-<div class="flex-column">
-    <h2 class="section-title">About Me</h2>
-
-    
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Nam aliquam sem et tortor consequat id porta.
-    Lacus laoreet non curabitur gravida arcu ac tortor dignissim convallis.
-    Molestie nunc non blandit massa enim nec dui nunc mattis. Elementum pulvinar etiam non quam lacus suspendisse faucibus interdum. Nullam vehicula ipsum a arcu cursus. 
-        Phasellus vestibulum lorem sed risus ultricies tristique. Sed augue lacus viverra vitae congue eu. Ultricies mi eget mauris pharetra et ultrices. 
-        Nulla pharetra diam sit amet nisl suscipit adipiscing bibendum. Dolor morbi non arcu risus. Ultricies tristique nulla aliquet enim tortor.</p>
-</div>
-</section>
-<!------end about me--------->
-
-
-<!-------Work----------->
-<section id="work" class="work-title">
-    <div class="flex-column">
-        <h2 class="section-title">Work</h2>
-    
-    
-<ul>
-        <div class="button-1">
-            <li><a href="https://ddcrane.github.io/run-buddy">Run Buddy</a></li> 
-        </div>
-
-        <div class="button-2">
-            <li><a>Robot Gladiators</a></li>
-        </div>
-        
-        <div class="button-3">
-            <li><a href="https://isaiahnegron.github.io/project-spaghetti/">Project Spaghetti</a></li>
-        </div>
-        
-        <div class="button-4">
-            <li><a href="https://pokemon-trading-post.herokuapp.com/">Pokemon Trading Post</a></li>
-        </div>
-        <div class="button-5">
-            <li><a href="https://hangoverfood.herokuapp.com/">Hunger-Mate</a></li>
-        </div>
-    </ul>
+  <!-- hero banner
+  <section class="hero-banner">
+    <div>
+      
     </div>
-</section>
-<!--------end Work--------->
+  </section> -->
 
-<!--------Contact Me------->
-<section id="contact-me" class="contact-title">
-    <div class="flex-column">
-    <h2 class="section-title">Contact Me</h2>
-    
-        <ul>
-        <li><a>937-269-1648</a></li>
-        <li><a>ddcrane2@gmail.com</a></li>
-        <li><a href="https://github.com/ddcrane/my-portfolio">GitHub</a></li>
-        <li><a href="https://www.instagram.com/manlybubbles/">Instagram</a></li>
-    </ul>
-</div>
-</section>
-<!--------end Contact Me------>
+  <main class="page-wrapper">
+    <!-- about me -->
+    <section class="page-section" id="about">
+      <h2>About Me</h2>
+      <div>
+        <p>
+          Welcome to my portfolio! I'm a new full stack web developer skilled in HTML, CSS, JavaScript, React.js, and more. 
+          I graduated from the University of Kansas in 2017 with a Bachelor of Arts in Global & International Studies, but I soon realized that my real passion was in creating.
+          I want to work on projects where I get to create connections between people, especially through games and stories.
+          In order to learn the skills I needed, I enrolled and graduated from the University of Kansas' full stack coding bootcamp in 2021.
+          I'm eager to join a team where I can learn, absorb, and hone my craft with talented and hardworking people!
+        </p>
+      </div>
+    </section>
 
+    <!-- portfolio container -->
+    <section class="page-section" id="work">
+      <h2>Work</h2>
+      <div class="flex-container">
+
+        <a href="https://pokemon-trading-post.herokuapp.com/" class="flex-item pokemon-trading-post">
+          <div>
+            <h3>Pokemon Trading Post</h3>
+            <span>JavaScript/MySQL</span>
+          </div>
+        </a>
+
+        <a href="https://isaiahnegron.github.io/project-spaghetti/" class="flex-item project-spaghetti">
+          <div>
+            <h3>Project Spaghetti</h3>
+            <span>HTML/JavaScript</span>
+          </div>
+        </a>
+
+        <a href="https://hangoverfood.herokuapp.com/" class="flex-item hunger">
+          <div>
+            <h3>Hunger Mate</h3>
+            <span>MERN Stack</span>
+          </div>
+        </a>
+
+        
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section class="page-section contact" id="contact">
+      <h2>Contact Me</h2>
+      <div>
+        <address>
+          <a>937-269-1648</a>
+          <a href="mailto:ddcrane2@gmail.com">ddcrane2@gmail.com</a>
+          <a href="https://github.com/ddcrane">GitHub</a>
+          <a href="https://www.linkedin.com/in/david-crane-62a65a218/">LinkedIn</a>
+        </address>
+      </div>
+    </section>
+  </main>
 </body>
+
 </html>
